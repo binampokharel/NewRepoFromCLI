@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 //        int myInt = 10;
 //        float myFloatValue = 10.9956567f;
-        String myFirstTxt = "Arithmetic Operation";
+        String myFirstTxt = "Addition Operation";
         System.out.println("First lab class of " + myFirstTxt);
         
         char firstChar = 'A';

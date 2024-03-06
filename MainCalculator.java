@@ -22,6 +22,7 @@ public class MainCalculator
     double inputSecondNumber;
     String operation;
     double result;
+	double testBranch;
 
     public MainCalculator(double inputFirstNumber, double inputSecondNumber, String operation){
         this.inputFirstNumber = inputFirstNumber;
@@ -66,6 +67,9 @@ public class MainCalculator
 
         }
     }
+	public void test(){
+	System.out.println("test for new branch");
+	}
     public static void main(String[] args)
     {
         MainCalculator calculator = new MainCalculator(10.0, 5.0, "add");
